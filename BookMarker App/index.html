@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8>
+	<meta name=description content="">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/yeti/bootstrap.min.css">
+	<title>BookList</title>
+</head>
+<body>
+	<div class="container mt-4">
+		<h1 class="display-4 text-center mb-4"><i class="fa fa-book text-primary mr-2"></i><span class="text-primary">Book</span>ish</h1>
+		<form id="book-form">
+			<div class="form-group row">
+				<label  class="col-sm-1 col-form-label" for="title">Title</label>
+				<div class="col-sm-10">
+					<input type="text" id="title" class="form-control">
+				</div>
+				
+			</div>
+			<div class="form-group row">
+				<label class="col-sm-1 col-form-label" for="title">Author</label>
+				<div class="col-sm-10">
+				<input type="text" id="author" class="form-control">
+			</div>
+			</div>
+			<div class="form-group row">
+				<label class="col-sm-1 col-form-label" for="title">Book Id</label>
+				<div class="col-sm-10">
+				<input type="text" id="book-id" class="form-control">
+			</div>
+			</div>
+			<input type="submit" value="Add Book" class="btn btn-primary mb-4" name="">
+		</form>
+		<table class="table table-stripped">
+			<thead>
+				<tr>
+					<th>Title</th>
+					<th>Author</th>
+					<th>Book Id</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody id="book-list"></tbody>
+		</table>
+		
+	</div>
+
+<script src="index.js"></script>
+</body>
+</html>

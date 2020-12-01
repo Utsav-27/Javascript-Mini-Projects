@@ -1,0 +1,31 @@
+body{
+	background: white;
+}
+.imgBox{
+	background-image: url('./iron.jpg');
+	position: relative;
+	top: 10px;
+	left: 5px;
+	height: 280px;
+	width: 195px;
+	cursor: pointer;
+
+}
+.whiteBox{
+	display: inline-block;
+	height: 300px;
+	width: 205px;
+	margin: 10px;
+	background: white;
+	border: 2px solid blue;
+}
+.hold{
+	border:2px solid red;
+}
+.hide{
+	display: none;
+}
+.dashed{
+	background: grey;
+	border-style: dashed;
+}
